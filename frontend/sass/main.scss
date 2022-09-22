@@ -1,0 +1,20 @@
+// All new files must be prepended with an underscore
+// i.e. _card.scss
+
+@charset 'UTF-8';
+
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+@import './base/reset';
+@import './base/typography';
+
+@import './vendors/bootstrap';
+
+@import './themes/theme';
+
+@import './pages/home';
+
+@import './layouts/header';
+
+@import './components/card';
